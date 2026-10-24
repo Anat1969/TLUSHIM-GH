@@ -141,9 +141,9 @@ function NavBar({ page, setPage }) {
   ];
   return (
     <nav style={{ borderBottom: "1px solid #E5E4E0", background: "#fff", position: "sticky", top: 0, zIndex: 10 }}>
-      <div style={{ maxWidth: 820, margin: "0 auto", padding: "0 1.5rem", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+      <div style={{ maxWidth: 820, margin: "0 auto", padding: "0 1.5rem", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 8 }}>
         <div style={{ fontSize: 15, fontWeight: 600, padding: "14px 0", color: "#1D9E75" }}>תלוש חכם</div>
-        <div style={{ display: "flex", gap: 0 }}>
+        <div style={{ display: "flex", gap: 0, overflowX: "auto", minWidth: 0 }}>
           {pages.map(p => (
             <button key={p.id} onClick={() => setPage(p.id)} style={{
               padding: "14px 16px", fontSize: 13, border: "none", background: "none", cursor: "pointer",
@@ -154,6 +154,7 @@ function NavBar({ page, setPage }) {
             </button>
           ))}
         </div>
+        <ai-menu />
       </div>
     </nav>
   );
