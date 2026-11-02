@@ -1,3 +1,5 @@
+**[לאפליקציה החיה: https://tlushim-gh.vercel.app](https://tlushim-gh.vercel.app)**
+
 # תלוש חכם
 
 **[פתיחת האפליקציה](https://anat1969.github.io/TLUSHIM-GH/)**

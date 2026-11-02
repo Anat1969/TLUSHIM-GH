@@ -32,7 +32,7 @@
 ## פריסה
 - **GitHub Pages:** ענף `gh-pages`, כתובת https://anat1969.github.io/TLUSHIM-GH/.
 - **הפקודה:** `npm run deploy` מיד אחרי כל מיזוג ל-main.
-- **מכסה:** אין פרויקט Vercel לאפליקציה הזו, ולכן פריסה לא צורכת את מכסת Vercel.
+- **Vercel:** https://tlushim-gh.vercel.app, פריסה אוטומטית מ-main. `base` מתחלף לפי `process.env.VERCEL`.
 
 ## יומן תיקונים
 - 28.10.2026: השבחה ראשונה לפי סעיף 11 בסקיל:
